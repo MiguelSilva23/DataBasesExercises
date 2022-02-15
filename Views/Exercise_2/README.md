@@ -18,3 +18,25 @@
 > **Verify that the view is created successfully**
 
 ***Hint:*** Use SELECT * FROM command on "Project Managers" view. It should list four records.
+
+
+===================================== Exercise =======================================
+
+> **Define a view named "Project Managers" using the above created query**
+
+```
+create view Project_Managers as 
+select 
+projects.project_id as Project_ID,
+projects."name" as Project_Name,
+concat(employees.fname, ' ',employees.lname) as Manager_Name,
+employees.emp_id as Manager_ID
+from projects
+left join employees on  projects.manager_id = employees.emp_id;
+```
+
+> **Verify that the view is created successfully**
+
+`select * from Project_Managers;`
+
+![Screenshot](View.png)
