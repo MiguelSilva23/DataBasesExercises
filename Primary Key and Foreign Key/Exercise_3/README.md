@@ -33,3 +33,28 @@
 SQL Error [23503]: ERROR: insert or update on table "projects" violates foreign key constraint "fk_manager_id"
   Detail: Key (manager_id)=(8) is not present in table "employees".
 ```
+
+
+====================================== Exercise =============================================
+
+> **Insert the following records in Projects table**
+
+```
+insert into projects 
+(
+name,manager_id 
+)
+values
+('Trainings',2),
+('Marketing',1),
+('Sales',5),
+('Research & Development',2);
+```
+
+> **Verify that four records are added to the Projects table**
+
+![Screenshote](VerifyProjects.png)
+
+> **Try to Insert the following records in Projects table**
+
+`insert into projects ('Accounts',8);`
