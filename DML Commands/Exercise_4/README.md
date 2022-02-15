@@ -13,3 +13,13 @@
 
 ***Hint:*** Use SELECT * FROM command with WHERE clause.
 
+============================= Exercise ================================
+
+> **Remove records of Employees table with contact equals to 10101010101**
+
+`delete from employees where contact = 10101010101;`
+
+> **Verify that given records of the Employees table have been removed**
+
+![Screenshot](RemoveEmployees.png)
+
