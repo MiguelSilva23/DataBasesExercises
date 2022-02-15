@@ -43,4 +43,12 @@
 
 > **Create "Employees" table with the following details**
 
-
+```
+create table Employees
+(
+fname varchar(30) not NULL, -- First Name
+lname varchar(30) not NULL, -- Last Name
+email varchar(50) not NULL unique, -- Email ID
+contact numeric(15,0) -- Phone Number
+);
+```
