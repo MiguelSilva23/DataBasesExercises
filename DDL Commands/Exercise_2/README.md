@@ -16,3 +16,17 @@ Ensure it includes one named "public".
 > **Refresh the list of schemas and verify that "public" is changed to "dci"**
 
 > **Rename the "dci" schema back to "public"**
+
+
+================================ Exercise =======================================
+> **Check the list of pre-defined schemas**
+
+`SHOW search_path;`
+
+> **Rename the schema named "public" to "dci"**
+
+`ALTER SCHEMA public RENAME TO dci;`
+
+> **Rename the "dci" schema back to "public"**
+
+`ALTER SCHEMA dci RENAME TO public;`
