@@ -25,3 +25,18 @@ Mark "public" schema as the default.
 Mark "public" schema as the default.
 
 ![Screenshot](MarkPublicAsDefault.png)
+
+
+
+> **Create a table named "Employees" with following details**
+
+`CREATE TABLE dci.Employees(
+fname varchar(30),
+lname varchar(30),
+email varchar(50),
+contact numeric(15,0));`
+
+> **Refresh the list of tables under "public" schem and verify that "Employees" table is created**
+
+![Screenshot](TableReady.png)
+
