@@ -19,3 +19,25 @@
 ***Hint:*** Use SELECT * FROM command.
 
 > **Confirm that emp_id column in in each record has a unique (serial) value specified automatically**
+
+===================================== Exercises =======================================
+
+> **Add more fields to "Employees" as follows**
+ 
+ | Column Name | Description | Data Type | Is Unique? | Is Nullable?|
+ |:--- | :--- | :---: | --- | --- |
+ |emp_id|Employee ID|serial|Yes|No|
+ |dob|Date of Birth|Date|No|Yes|
+ |is_manager|Is a Manager|Boolean|No|Yes|
+ 
+ ```
+alter table employees 
+add emp_id SERIAL unique not null, --Employee ID
+add dob date , -- Date of Birth
+add is_manager boolean  -- is a manager
+;
+ ```
+ 
+ > **Confirm that emp_id column in in each record has a unique (serial) value specified automatically**
+
+![Screenshot](SerialID.png)
