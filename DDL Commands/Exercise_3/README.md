@@ -17,3 +17,18 @@ Mark "public" schema as the default.
 ***Hint:*** use CREATE TABLE command.
 
 > **Refresh the list of tables under "public" schem and verify that "Employees" table is created**
+
+=============================== Exercise ===================================
+
+> **Start DBeaver tool and Establish a connection with the database named - DCI**
+
+![Screenshot](MarkPublicAsDefault.png)
+
+> **Create a table named "Employees" with following details**
+
+`CREATE TABLE Employees( fname varchar(30), lname varchar(30), email varchar(50), contact numeric(15,0));`
+
+> **Refresh the list of tables under "public" schem and verify that "Employees" table is created**
+
+![Screenshot](TableReady.png)
+
