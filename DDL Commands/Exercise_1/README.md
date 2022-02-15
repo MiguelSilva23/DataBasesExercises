@@ -11,7 +11,7 @@
 ===================== Exercise =============================
 
 > **Create a database - "Digital Career Institute"**
-CREATE DATABASE Digital_Career_Institute;
+**CREATE DATABASE Digital_Career_Institute;**
 
 
 > **As the name looks pretty long, rename it to - DCI**
