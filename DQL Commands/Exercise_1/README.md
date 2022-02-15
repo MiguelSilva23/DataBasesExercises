@@ -52,3 +52,19 @@ email varchar(50) not NULL unique, -- Email ID
 contact numeric(15,0) -- Phone Number
 );
 ```
+> **Insert the following records in Employees table**
+
+```
+insert into employees (fname,lname,email)
+values
+('Adam','Falon','adam.falon@dci.com'),
+('Mary','Gold','mary.gold@dci.com'),
+('Adam','Currie','adam.currie@dci.com'),
+('Bryan','Jhonson','bryan.Jhonson'),
+('Prasad','Ritesh','prasad.ritesh@dci.com'),
+('Mary','Jhonson','mary.jhonson@dci.com');
+```
+
+> **Verify that six records are added to the Employees table**
+
+![Screenshot](NewTable.png)
