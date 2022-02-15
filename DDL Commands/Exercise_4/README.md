@@ -32,4 +32,4 @@ comment on column employees.contact  is 'Contact';
 
 > **Refresh the table view and review the column defintions. Note that comments are added to each column**
 
-![Screenshot](Comments.png)
+![Screenshot](CommentsOnFields.png)
