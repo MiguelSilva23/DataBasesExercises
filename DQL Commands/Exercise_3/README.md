@@ -15,14 +15,10 @@
  
  > **List all Employee records as follows**
 
-- First Name in *Ascending Order*
-
-`select * from employees order by fname asc;`
+`select * from employees order by fname asc, lname desc;`
 
 ![Screenshot](AscOrder.png)
 
-- Last Name in *Descending Order*
 
-`select * from employees order by lname desc;`
 
-![Screenshot](DescOrder.png)
+
