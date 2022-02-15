@@ -57,4 +57,13 @@ values
 
 > **Try to Insert the following records in Projects table**
 
-`insert into projects ('Accounts',8);`
+```
+insert into projects 
+(name,manager_id)
+Values
+('Accounts',8);
+```
+
+> **Verify that it reports error as follows**
+
+![Screenshot](Error.png)
