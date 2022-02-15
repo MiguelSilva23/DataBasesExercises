@@ -21,6 +21,8 @@ Mark "public" schema as the default.
 =============================== Exercise ===================================
 
 > **Start DBeaver tool and Establish a connection with the database named - DCI**
+Mark "public" schema as the default.
+
 
 ![Screenshot](MarkPublicAsDefault.png)
 
