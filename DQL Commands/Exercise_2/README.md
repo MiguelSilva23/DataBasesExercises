@@ -11,3 +11,18 @@
 > **Find all Unique Last Names of Employees**
  
  ***Hint:*** Use SELECT command with DISTINCT clause. It shall list 5 records.
+ 
+ ========================= Exercise ====================
+ 
+ > **Find all Unique First Names of Employees**
+
+`select distinct fname from employees;`
+
+![Screenshot](distinctFname.png)
+
+> **Find all Unique Last Names of Employees**
+
+`select distinct lname from employees;`
+
+![Screenshot](distinctLname.png)
+
