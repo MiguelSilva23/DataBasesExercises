@@ -21,3 +21,24 @@
 |5|	prasad.ritesh@dci.com|
 |4|	bryan.Jhonson@dci.com|
 |3|	adam.currie@dci.com|
+
+
+================================ Exercise ==============================
+
+> **List all records from Employee matching with the following conditions**
+ 
+ - The value of Employee ID is more than or equal to 3
+ - The value of Employee ID is less than 10
+ - Records are listed by Employee ID in *Descending* order.
+ - Display only these columns - Employee ID, Email
+
+```
+select emp_id AS Employee_ID, email AS Email
+from employees
+where emp_id >= 3 AND emp_id  < 10
+order by emp_id desc;
+```
+
+> **Match the result with the following outcome**
+
+![Screenshot](filterId.png)
