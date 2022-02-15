@@ -17,3 +17,7 @@ Mark "public" schema as the default.
 ***Hint:*** use CREATE TABLE command.
 
 > **Refresh the list of tables under "public" schem and verify that "Employees" table is created**
+
+
+=========================================== Exercise =====================================
+
