@@ -18,19 +18,3 @@ COMMENT ON COLUMN <table_name>.<column_name> IS '<comment>';
 ```
 
 > **Refresh the table view and review the column defintions. Note that comments are added to each column**
-
-============================ Exercise ===================================
-
-> **Add Decription of the column as comment to each column respectively in the Employees table**
-
-```
-comment on column employees.fname  is 'First Name';
-comment on column employees.lname  is 'Last Name';
-comment on column employees.email  is 'Email';
-comment on column employees.contact  is 'Contact';
-```
-
-> **Refresh the table view and review the column defintions. Note that comments are added to each column**
-
-![Screenshot](Comments.png)
-
