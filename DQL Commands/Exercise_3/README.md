@@ -10,3 +10,19 @@
 - Last Name in *Descending Order*
  
  ***Hint:*** Use SELECT command with ORDER BY clause. 
+ 
+ ========================= Exercise ==========================
+ 
+ > **List all Employee records as follows**
+
+- First Name in *Ascending Order*
+
+`select * from employees order by fname asc;`
+
+![Screenshot](AscOrder.png)
+
+- Last Name in *Descending Order*
+
+`select * from employees order by lname desc;`
+
+![Screenshot](DescOrder.png)
