@@ -33,3 +33,14 @@
 > **Verify that six records are added to the Employees table**
 
 ***Hint:*** Use SELECT * FROM command.
+
+
+============================== Exercise =========================
+
+> **Remove the Employees table**
+
+`DROP TABLE employees; `
+
+> **Create "Employees" table with the following details**
+
+
