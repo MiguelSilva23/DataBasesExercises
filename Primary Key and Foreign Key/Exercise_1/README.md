@@ -7,3 +7,9 @@
 > **Add A Primary Key Constraint on "Employees" with "Employee ID - emp_id" field**
  
  ***Hint:*** use ALTER TABLE command with ADD CONSTRAINT clause.
+ 
+ ========================= Exercise ==================================
+ 
+ > **Add A Primary Key Constraint on "Employees" with "Employee ID - emp_id" field**
+
+`alter table employees add primary key (emp_id);`
