@@ -18,3 +18,20 @@ Ensure "Employees" table exist.
 > **Verify that five records are added to the Employees table**
 
 ***Hint:*** Use SELECT * FROM command.
+
+======================== Exercise ======================
+
+> **Insert the following records in Employees table**
+
+```
+insert into employees(fname,lname,email,contact) 
+values 
+('F1','L1','f1.l1@dci.com',9900990099),
+('F2','L2','f2.l2@dci.com',9900990099),
+('F3','L3','f3.l3@dci.com',9900990099),
+('F4','L4','f4.l4@dci.com',9900990099);
+```
+
+> **Verify that five records are added to the Employees table**
+
+![Screenshot](Table.png)
